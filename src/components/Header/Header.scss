@@ -1,0 +1,31 @@
+.header {
+
+
+    &__row {
+        padding: 44px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom:  1px #F3F3F3  solid;
+
+    }
+    &__img{
+        margin-right: 12px;
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+    }
+
+
+    &__nav-menu-link {
+        margin-left: 60px;
+        color: #151411;
+
+
+    }
+    &__icons-cart{
+        margin-right: 24px;
+    }
+}

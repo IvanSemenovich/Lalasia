@@ -1,0 +1,45 @@
+@import url(./styleguide.scss);
+.wrapper{
+    max-width: 1720px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+body{
+    font-family: Eudoxus Sans;
+}
+
+@mixin media-tablet {
+    @media screen and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin media-small-laptop {
+    @media screen and (min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin media-medium-laptop {
+    @media screen and (min-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin media-laptop {
+    @media screen and (min-width: 1440px) {
+        @content;
+    }
+}
+
+@mixin media-desktop {
+    @media screen and (min-width: 1850px) {
+        @content;
+    }
+}
+
+
